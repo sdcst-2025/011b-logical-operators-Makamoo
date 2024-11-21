@@ -24,3 +24,10 @@ Enter a number: 5
 Enter a number: 4.0
 4.0 is a positive integer
 """
+Apple = float(input("enter a number"))
+Banana = round(Apple, 10)
+Cherry = float(int(Banana))
+if Cherry != Banana or Apple <= 0:
+    print(f"{Apple} is not a positive integer")
+else:
+    print(f"{Apple} is a positive integer")

@@ -22,4 +22,17 @@ Enter your name=>Gordon
 You are not a VIP.
 """
 
-VIPNames = ("Guile","Blanka","Christine","Carol","Richard","Daniel","Chun-Li")
+V = 'Guile'
+V = 'Blanka'
+V = 'Christine'
+V = 'Carol'
+V = 'Richard'
+V = 'Daniel'
+V = 'Chun-Li'
+
+EHonda = input("VIP Room Guard: What's your name? ")
+
+if EHonda == V:
+    print(f"Hi {EHonda}! You are a VIP!")
+else:
+    print(f"Nice try {EHonda}, you are actually not a VIP, try again another time")

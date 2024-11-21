@@ -26,3 +26,17 @@ Enter a number: 4
 Enter another number: 25
 4 is not a factor of 25
 """
+
+Jerick = float(input("Gimme a number "))
+Mckinnon = float(input("I need just one more "))
+
+if Jerick > Mckinnon:
+    n = Jerick
+    h = Mckinnon
+elif Jerick < Mckinnon:
+    n = Mckinnon
+    h = Jerick
+elif Jerick == Mckinnon:
+    print(f"{Jerick} is a factor of {Mckinnon}")
+
+print(h)
